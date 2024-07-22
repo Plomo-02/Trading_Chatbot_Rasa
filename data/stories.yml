@@ -1,0 +1,36 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: info_performance
+  steps:
+  - intent: portfolio_permormance
+  - action: action_portfolio_performance
+
+- story: info_portfolio_value
+  steps:
+  - intent: current_value
+  - action: action_current_value
+  
+- story: info_activities
+  steps:
+  - intent: recent_trading_activities
+  - action: action_recent_trading_activities
+
+- story: info_last_fee
+  steps:
+  - intent: last_trade_fee
+  - action: action_last_trade_fee
+
+- story: info_last_fee
+  steps:
+  - intent: current_positions
+  - action: action_current_positions
+

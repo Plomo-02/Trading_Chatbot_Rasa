@@ -1,0 +1,75 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: portfolio_performance
+  examples: |
+    - Show my portfolio performance for the last month.
+    - How did my portfolio perform last month?
+    - Can you give me a summary of my portfolio's performance for the previous month?
+    - What was the performance of my portfolio in the last month?
+    - Tell me about my portfolio's performance for the last month.
+    - How did my investments do last month?
+
+- intent: current_value
+  examples: |
+    - What is the current value of my holdings?
+    - How much are my investments worth right now?
+    - Can you tell me the current value of my portfolio?
+    - What’s the current value of my investments?
+    - How much is my portfolio worth at the moment?
+    - What's the total value of my current holdings?
+
+- intent: recent_trading_activities
+  examples: |
+    - Summarize my recent trading activities.
+    - Show me a summary of my latest trades.
+    - What trades have I made recently?
+    - Can you list my recent trading activities?
+    - Give me a summary of my recent trades.
+    - What are my latest trading activities?
+
+- intent: last_trade_fee
+  examples: |
+    - What’s my last trade fee?
+    - How much was the fee for my most recent trade?
+    - Tell me the fee for my last trade.
+    - How much did I pay in fees for my last trade?
+    - What was the fee on my latest trade?
+    - What was the cost of the last trade fee?
+
+- intent: current_positions
+  examples: |
+    - What are my current positions?
+    - Show me my current holdings.
+    - What investments do I currently have?
+    - Can you list my current positions?
+    - What are my current investments?
+    - Tell me about my current holdings.
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - See you later
+    - Farewell
+    - Take care
+    - Have a nice day
+    - Until next time
+    - Bye for now
+    - Catch you later
+    - I’m done here

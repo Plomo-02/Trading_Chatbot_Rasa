@@ -1,0 +1,9 @@
+To run:
+In one terminal:
+	rasa run actions
+
+In onother terminal, after rasa actions is up and running:
+	rasa shell
+
+enjoy it!
+
